@@ -69,7 +69,7 @@ By default, internal connections between interfaces that are not shown in a Visi
 
 However, it is possible to make DataMiner Cube display temporary connections between interfaces if there is a DCF path between the two corresponding interfaces, even if some interfaces in the chain are not displayed. This means that in the example above, the connection between A and C will be drawn.
 
-To do so, add a shape data field of type **Option** to the shape and set its value to "InternalInterfaceHopping".
+To do so, add a shape data field of type **Options** to the shape and set its value to "InternalInterfaceHopping".
 
 | Shape data field | Value                    |
 | ---------------- | ------------------------ |
